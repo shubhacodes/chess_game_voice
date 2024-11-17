@@ -1,0 +1,73 @@
+----- 11/15/24 23:43:33 -----
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\speech_recognition\__init__.py", line 108, in get_pyaudio
+    import pyaudio
+ModuleNotFoundError: No module named 'pyaudio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vshub\OneDrive\Desktop\voice-controlled-chess-main\code\gui.py", line 269, in play_as
+    with sr.Microphone() as source:
+         ^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\speech_recognition\__init__.py", line 80, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\speech_recognition\__init__.py", line 110, in get_pyaudio
+    raise AttributeError("Could not find PyAudio; check installation")
+AttributeError: Could not find PyAudio; check installation
+
+Playing as WHITE:
+	
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+-----------------------------
+
+----- 11/15/24 23:44:31 -----
+Traceback (most recent call last):
+  File "C:\Users\vshub\OneDrive\Desktop\voice-controlled-chess-main\code\gui.py", line 269, in play_as
+    with sr.Microphone() as source:
+         ^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\speech_recognition\__init__.py", line 80, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\speech_recognition\__init__.py", line 111, in get_pyaudio
+    from distutils.version import LooseVersion
+ModuleNotFoundError: No module named 'distutils'
+
+Playing as BLACK:
+	d2d4
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+	rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1
+-----------------------------
+
+----- 11/15/24 23:45:20 -----
+Traceback (most recent call last):
+  File "C:\Users\vshub\OneDrive\Desktop\voice-controlled-chess-main\code\gui.py", line 269, in play_as
+    with sr.Microphone() as source:
+         ^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\speech_recognition\__init__.py", line 80, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\speech_recognition\__init__.py", line 111, in get_pyaudio
+    from distutils.version import LooseVersion
+ModuleNotFoundError: No module named 'distutils'
+
+Playing as WHITE:
+	
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+-----------------------------
+
+----- 11/15/24 23:52:08 -----
+Traceback (most recent call last):
+  File "C:\Users\vshub\OneDrive\Desktop\voice-controlled-chess-main\code\gui.py", line 240, in play_as
+    CLOCK.tick(CLOCK_TICK)
+KeyboardInterrupt
+
+Playing as BLACK:
+	d2d4 d7d5 c2c4
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+	rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1
+	rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq d6 0 2
+	rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2
+-----------------------------
+
